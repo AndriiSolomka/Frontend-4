@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keywords"
+      content="HTML5, лабораторна робота, особиста сторінка"
+    />
+    <meta name="description" content="Лабораторна робота №1 з HTML5" />
+    <title>Соломка Андрій – група ІМ-31</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Соломка Андрій Романович</h2>
+    <p>Дата народження: 4 січня 2006 року, м. Краматорськ</p>
+    <p>Освіта: НТУУ "КПІ", факультет інформатики та обчислювальної техніки</p>
+
+    <h3>Мої хобі:</h3>
+    <ul class="hobbies">
+      <li id="hobby1">Спорт</li>
+      <li id="hobby2">Подорожі</li>
+      <li id="hobby3">Комп'ютерні ігри</li>
+    </ul>
+
+    <h3>Улюблені фільми:</h3>
+    <ol>
+      <li>Ботан і мачо</li>
+      <li>Володар колець</li>
+      <li>Ф1</li>
+    </ol>
+
+    <h3>Улюблене місто:</h3>
+    <p>
+      Львів — одне з найкрасивіших міст України, відоме своєю унікальною
+      архітектурою, атмосферними кав'ярнями та багатою історією. Місто називають
+      культурною столицею України.
+    </p>
+
+    <div class="city-photo">
+      <a href="https://lviv.travel" target="_blank">
+        <img
+          id="cityPhoto"
+          src="https://vgorode.ua/img/article/3872/6_main-v1577255306.jpg"
+          alt="Львів, Ринкова площа"
+          width="500"
+        />
+      </a>
+    </div>
+
+    <div class="buttons">
+      <button class="button" onclick="addImg()">Додати</button>
+      <button class="button" onclick="resizeImg('increase')">Збільшити</button>
+      <button class="button" onclick="resizeImg('decrease')">Зменшити</button>
+      <button class="button" onclick="deleteImg()">Видалити</button>
+    </div>
+
+    <p>
+      <a href="https://lviv.travel" target="_blank"
+        >Більше інформації про Львів</a
+      >
+    </p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
